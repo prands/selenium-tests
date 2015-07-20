@@ -1,5 +1,6 @@
 <?php
 if ($_FILES) {
+	
     $file = $_FILES['upload_here'];
     echo "<div id=\"uploaded\">
         The file name is <span id=\"name\">{$file['name']}</span>
